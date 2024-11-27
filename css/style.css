@@ -1,0 +1,234 @@
+.facebook{
+	font-size: 20px;
+	margin-left: 20px;
+	color: blue;
+}
+.twitter{
+	font-size: 20px;
+	margin-left: 20px;
+	color: black;
+}
+.messenger{
+	font-size: 20px;
+	margin-left: 20px;
+	color: blue;
+}
+.instagram{
+	font-size: 20px;
+	margin-left: 20px;
+	color: red;
+}
+.youtube{
+	font-size: 20px;
+	margin-left: 20px;
+	color: red;
+}
+.box1{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	animation-name: linear;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count:  infinite;
+	position: relative;
+}
+@keyframes linear {
+	from {
+		top: 0px;
+		left: 0px;
+	}
+	to {
+		top: 0px;
+		left: 700px;
+	}
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: ease;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count:  infinite;
+	position: relative;
+}
+@keyframes ease {
+	from {
+		top: 0px;
+		left: 0px;
+	}
+	to {
+		top: 0px;
+		left: 700px;
+	}
+}
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	animation-name: ease-in;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:  infinite;
+	position: relative;
+}
+@keyframes ease-in {
+	from {
+		top: 0px;
+		left: 0px;
+	}
+	to {
+		top: 0px;
+		left: 700px;
+	}
+}
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	animation-name: ease-out;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count:  infinite;
+	position: relative;
+}
+@keyframes ease-out {
+	from {
+		top: 0px;
+		left: 0px;
+	}
+	to {
+		top: 0px;
+		left: 700px;
+	}
+}
+.box5{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	animation-name: ease-in-out;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:  infinite;
+	position: relative;
+}
+@keyframes ease-in-out {
+	from {
+		top: 0px;
+		left: 0px;
+	}
+	to {
+		top: 0px;
+		left: 700px;
+	}
+}
+
+.alias{
+	cursor: alias;
+}
+.all-scroll{
+	cursor: all-scroll;
+}
+.auto{
+	cursor: auto;
+}
+.cell{
+	cursor: cell;
+}
+.col-resize{
+	cursor: col-resize;
+}
+.context-menu{
+	cursor: context-menu;
+}
+.copy{
+	cursor: copy;
+}
+.crosshair{
+	cursor: crosshair;
+}
+.default{
+	cursor: default;
+}
+.e-resize{
+	cursor: e-resize;
+}
+.ew-resize{
+	cursor: ew-resize;
+}
+.grab{
+	cursor: grab;
+}
+.grabbing{
+	cursor: grabbing;
+}
+.help{
+	cursor: help;
+}
+.move{
+	cursor: move;
+}
+.n-resize{
+	cursor: n-resize;
+}
+.ne-resize{
+	cursor: ne-resize;
+}
+.nesw-resize{
+	cursor: nesw-resize;
+}
+.ns-resize{
+	cursor: ns-resize;
+}
+.nw-resize{
+	cursor: nw-resize;
+}
+.nwse-resize{
+	cursor: nwse-resize;
+}
+.no-drop{
+	cursor: no-drop;
+}
+.none{
+	cursor: none;
+}
+.not-allowed{
+	cursor: not-allowed;
+}
+.pointer{
+	cursor: pointer;
+}
+.progress{
+	cursor: progress;
+}
+.row-resize{
+	cursor: row-resize;
+}
+.s-resize{
+	cursor: s-resize;
+}
+.se-resize{
+	cursor: se-resize;
+}
+.sw-resize{
+	cursor: sw-resize;
+}
+.text{
+	cursor: text;
+}
+.url{
+	cursor: url;
+}
+.w-resize{
+	cursor: w-resize;
+}
+.wait{
+	cursor: wait;
+}
+.zoom-in{
+	cursor: zoom-in;
+}
+.zoom-out{
+	cursor: zoom-out;
+}
